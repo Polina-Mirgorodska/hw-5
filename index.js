@@ -13,3 +13,5 @@ switch (choice) {
   default:
     console.log("Невірний вибір");
 }
+
+const day = prompt("Введіть день тижня")
