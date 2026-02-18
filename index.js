@@ -29,8 +29,8 @@ switch (day.toLowerCase()) {
     alert("Це вихідний");
     break;
 
-  // default:
-  //   alert("Невірно введений день тижня");
+  default:
+    alert("Невірно введений день тижня");
 }
 
 const month = 3;
@@ -60,8 +60,8 @@ switch (month) {
     console.log("Осінь");
     break;
 
-  // default:
-  //   console.log("Невірний номер місяця");
+  default:
+    console.log("Невірний номер місяця");
 }
 
 let color = prompt("Введіть колір світлофора:");
@@ -79,8 +79,8 @@ switch (color.toLowerCase()) {
     alert("чекати");
     break;
 
-  // default:
-  //   alert("Невідомий колір");
+  default:
+    alert("Невідомий колір");
 }
 
 const a = Number(prompt("Введіть перше число:"));
@@ -114,6 +114,6 @@ switch (operator) {
     }
     break;
 
-  // default:
-  //   alert("Невідомий оператор");
+  default:
+    alert("Невідомий оператор");
 }
