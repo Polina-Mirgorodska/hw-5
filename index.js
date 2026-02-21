@@ -1,6 +1,6 @@
 const drink = 2;
 
-switch (choice) {
+switch (drink) {
   case 1:
     console.log("Кава");
     break;
